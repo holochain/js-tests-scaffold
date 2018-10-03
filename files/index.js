@@ -3,7 +3,7 @@
 const test = require('tape');
 
 // instantiate an app from the Genome JSON bundle
-const app = Container.loadAndInstantiate("bundle.json")
+const app = Container.loadAndInstantiate("dist/bundle.json")
 
 // activate the new instance
 app.start()
