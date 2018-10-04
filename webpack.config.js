@@ -6,6 +6,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
+  mode: 'production',
   module: {
     rules: [
         {
@@ -21,7 +22,12 @@ module.exports = {
     ]
   },
   stats: {
-      colors: true
+      colors: true,
+      hash: false,
+      version: false,
+      assets: false,
+      timings: false,
+      chunks: false
   },
   node: {
     fs: 'empty',
