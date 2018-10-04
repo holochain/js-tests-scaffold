@@ -21,14 +21,7 @@ module.exports = {
         }
     ]
   },
-  stats: {
-      colors: true,
-      hash: false,
-      version: false,
-      assets: false,
-      timings: false,
-      chunks: false
-  },
+  stats: 'minimal',
   node: {
     fs: 'empty',
     setImmediate: false
