@@ -6,4 +6,4 @@ It currently includes webpack in its configuration because the javascript execut
 
 The configuration currently uses [tape](https://github.com/substack/tape) as a testing framework.
 
-These files will be copied into the `test` folder of any new Genome that is started using `hcdev init`.
+These files are copied into the `test` folder of any new Genome that is started using `hcdev init`.
