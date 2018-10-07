@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "tape": "^4.9.1",
-    "json3": "*"
+    "json3": "*",
+    "faucet": "0.0.1"
   },
   "scripts": {
     "build": "webpack",
