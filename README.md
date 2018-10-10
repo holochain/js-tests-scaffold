@@ -17,7 +17,7 @@ Javascript build step is done by running `npm run build`. This places a new file
 
 Note that those steps are performed automatically by `hcdev test`.
 
-**Note about default configuration with TAPE testing**: If you use this default configuration with Tape for testing, to get an improved CLI visual output (with colors!), we recommend adjusting the command you use to run tests as follows:
+**Note about default configuration with TAPE testing**: If you use this default configuration with Tape for testing, to get an improved CLI visual output (with colors! and accurate exit codes), we recommend adjusting the command you use to run tests as follows:
 ```
 hcdev test | test/node_modules/faucet/bin/cmd.js
 ```
