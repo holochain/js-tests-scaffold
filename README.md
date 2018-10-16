@@ -1,8 +1,8 @@
 # js-tests-scaffold
 
-This is a recommended configuration for developing tests for Holochain Genomes. The point of these files are to write tests that can successfully run within the [`hcshell`](https://github.com/holochain/holosqape#Hcshell) Holochain container environment.
+This is a recommended configuration for developing tests for Holochain Genomes. The point of these files are to write tests that can successfully run within the [`hcshell`](https://github.com/holochain/holosqape#hcshell) Holochain container environment.
 
-It currently includes webpack in its configuration because the javascript execution environment in the [`hcshell`](https://github.com/holochain/holosqape#Hcshell) container does not support full ES6 Javascript.
+It currently includes webpack in its configuration because the javascript execution environment in the [`hcshell`](https://github.com/holochain/holosqape#hcshell) container does not support full ES6 Javascript.
 In terms of syntax, ES5 is safe, but check the [QJSEngine documentation](http://doc.qt.io/qt-5/qtqml-javascript-functionlist.html) to be completely sure of syntax compatibility.
 
 To get proper assertions and formatted output we want to use existing JS scripting frameworks. The configuration currently uses [tape](https://github.com/substack/tape) as a testing framework. We chose Tape for now because of its minimal footprint.
