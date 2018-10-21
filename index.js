@@ -2,7 +2,7 @@
 // To learn more, go here: https://github.com/substack/tape
 const test = require('tape');
 
-// instantiate an app from the Genome JSON bundle
+// instantiate an app from the DNA JSON bundle
 const app = Container.loadAndInstantiate("dist/bundle.json")
 
 // activate the new instance
