@@ -1,3 +1,7 @@
+# Repo has moved
+
+This repository has moved to https://github.com/holochain/holochain-rust/tree/develop/cmd/src/cli/js-tests-scaffold
+
 # js-tests-scaffold
 
 This is a recommended configuration for developing tests for Holochain DNA packages. The point of these files are to write tests that can successfully run within node using the [`holochain-nodejs`](https://github.com/holochainholochain-nodejs) Holochain container environment.
